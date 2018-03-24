@@ -209,6 +209,10 @@
     <Compile Include="Migrations\Products\201803240843209_Update Products table to include price and changed GPUSpeed to nullable double.Designer.cs">
       <DependentUpon>201803240843209_Update Products table to include price and changed GPUSpeed to nullable double.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Products\201803241909551_Update Products table to include battery life.cs" />
+    <Compile Include="Migrations\Products\201803241909551_Update Products table to include battery life.Designer.cs">
+      <DependentUpon>201803241909551_Update Products table to include battery life.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Products\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -311,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\Products\201803240843209_Update Products table to include price and changed GPUSpeed to nullable double.resx">
       <DependentUpon>201803240843209_Update Products table to include price and changed GPUSpeed to nullable double.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\Products\201803241909551_Update Products table to include battery life.resx">
+      <DependentUpon>201803241909551_Update Products table to include battery life.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

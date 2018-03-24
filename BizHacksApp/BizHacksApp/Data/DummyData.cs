@@ -24,6 +24,7 @@ namespace BizHacksApp.Data
                     GraphicsCard = "GTX 750Ti",
                     GPUMemory = 4,
                     GPUSpeed = 1.5,
+                    BatteryLife = 10,
                     Price = 1699.99
                 },
                 new Product()
@@ -38,6 +39,7 @@ namespace BizHacksApp.Data
                     GraphicsCard = "GTX 1060Ti",
                     GPUMemory = 8,
                     GPUSpeed = 2.1,
+                    BatteryLife = 9,
                     Price = 2599.99
                 },
             };

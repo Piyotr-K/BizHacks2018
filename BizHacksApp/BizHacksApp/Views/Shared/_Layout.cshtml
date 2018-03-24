@@ -25,10 +25,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { @class = "navlink", @style = "color: white" })</li>
-                    <li><a href="#" class="navlink" style="color: white;">Shop</a></li>
-                    <li>@Html.ActionLink("Brands", "Contact", "Home", new { @class = "navlink", @style = "color: white" })</li>
-                    <li>@Html.ActionLink("Products", "Index", "Products", new { @class = "navlink", @style = "color: white" })</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home", null, new { @class = "navlink", @style = "color: white" })</li>
+                    <li>@Html.ActionLink("Shop", "About", "Home", null, new { @class = "navlink", @style = "color: white" })</li>
+                    <li>@Html.ActionLink("Brands", "Contact", "Home", null, new { @class = "navlink", @style = "color: white" })</li>
+                    <li>@Html.ActionLink("Products", "Index", "Products", null, new { @class = "navlink", @style = "color: white" })</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

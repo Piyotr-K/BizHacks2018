@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<BizHacksApp.Models.Products.Product>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Products Catalog";
 }
 
 <h2>Index</h2>
@@ -18,15 +18,6 @@
             @Html.DisplayNameFor(model => model.Category)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Audio)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ProcessorType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ProcessorSpeed)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.RamSize)
         </th>
         <th>
@@ -36,10 +27,7 @@
             @Html.DisplayNameFor(model => model.GraphicsCard)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.GPUMemory)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.GPUSpeed)
+            @Html.DisplayNameFor(model => model.BatteryLife)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Price)
@@ -56,15 +44,6 @@
             @Html.DisplayFor(modelItem => item.Category)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Audio)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProcessorType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProcessorSpeed)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.RamSize)
         </td>
         <td>
@@ -74,10 +53,7 @@
             @Html.DisplayFor(modelItem => item.GraphicsCard)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.GPUMemory)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.GPUSpeed)
+            @Html.DisplayFor(modelItem => item.BatteryLife)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Price)

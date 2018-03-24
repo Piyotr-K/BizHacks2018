@@ -19,6 +19,7 @@ namespace BizHacksApp.Models.Products
         public string GraphicsCard { get; set; }
         public int? GPUMemory { get; set; }
         public double? GPUSpeed { get; set; }
+        public int? BatteryLife { get; set; }
         public double Price { get; set; }
     }
 }
